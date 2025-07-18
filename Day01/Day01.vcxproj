@@ -127,9 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\基础练习\Day01_Practice\Day01_Practice\calculator.cpp" />
-    <ClCompile Include="..\..\基础练习\Day01_Practice\Day01_Practice\guess_number.cpp" />
-    <ClCompile Include="..\..\基础练习\Day01_Practice\Day01_Practice\multiplication.cpp" />
+    <ClCompile Include="..\..\基础练习\Day01_Practice\Day01_Practice\calculator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\基础练习\Day01_Practice\Day01_Practice\guess_number.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\基础练习\Day01_Practice\Day01_Practice\multiplication.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
