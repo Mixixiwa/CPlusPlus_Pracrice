@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\基础练习\Day01_Practice\Day01_Practice\calculator.cpp">
+    <ClCompile Include="Calculate.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\基础练习\Day01_Practice\Day01_Practice\guess_number.cpp">
+    <ClCompile Include="Guess_number.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\基础练习\Day01_Practice\Day01_Practice\multiplication.cpp">
+    <ClCompile Include="Multiplication.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
